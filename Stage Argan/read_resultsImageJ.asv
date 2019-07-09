@@ -1,7 +1,0 @@
-clear all, close all
-
-file = 'roi_means.csv';
-
-dat=csvread(file, 1);
-
-index = dat(

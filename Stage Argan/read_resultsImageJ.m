@@ -1,7 +1,7 @@
 clear all, close all
 
 file = 'roi_means.csv';
-fichier = 'means.txt';
+out = 'means.txt';
 dat=csvread(file, 1);
 
 frame = dat(:, 1);
@@ -14,4 +14,4 @@ for ind = 1:length(frame)
 end
 
 tab=table(index, means, delim);
-writetable(tab, fichier);
+writetable(tab, out, 'delimiter', ' ', 'WriteVariableNames', 0);

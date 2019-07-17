@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 718.0, 162.0, 780.0, 628.0 ],
+		"rect" : [ 714.0, 162.0, 780.0, 628.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -86,12 +86,12 @@
 					"patching_rect" : [ 296.0, 484.0, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_type" : 0
 						}
 
 					}
@@ -560,14 +560,14 @@
 									"patching_rect" : [ 50.0, 359.0, 111.0, 36.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_unitstyle" : 4,
 											"parameter_mmin" : -70.0,
 											"parameter_longname" : "live.gain~[2]",
 											"parameter_initial_enable" : 1,
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0 ],
 											"parameter_shortname" : "live.gain~",
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_type" : 0
 										}
 
 									}
@@ -1976,7 +1976,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 490.0, 185.0, 640.0, 480.0 ],
+						"rect" : [ 490.0, 184.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2003,7 +2003,20 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 342.0, 34.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-53",
 									"maxclass" : "newobj",
@@ -2458,6 +2471,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
 									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -4446,8 +4466,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18::obj-71" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-125" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-18::obj-71" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -4456,21 +4476,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "means.txt",
-				"bootpath" : "D:/Documents/GitHub/zebrasound/Stage Argan",
+				"bootpath" : "D:/Documents/GitHub/zebrasound/Stage Argan/Roi_clusters",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "avgnorm.coll",
-				"bootpath" : "D:/Documents/GitHub/zebrasound/Stage Argan",
+				"bootpath" : "D:/Documents/GitHub/zebrasound/Stage Argan/Roi_clusters",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clusters.coll",
-				"bootpath" : "D:/Documents/GitHub/zebrasound/Stage Argan",
+				"bootpath" : "D:/Documents/GitHub/zebrasound/Stage Argan/Roi_clusters",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 702.0, 158.0, 628.0, 648.0 ],
+		"rect" : [ -25566.0, -25566.0, 628.0, 648.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2284,7 +2284,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 122.0, 286.0, 744.0, 480.0 ],
+														"rect" : [ 278.0, 278.0, 1313.0, 483.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -2311,7 +2311,18 @@
 														"tags" : "",
 														"style" : "",
 														"subpatcher_template" : "",
+														"visible" : 1,
 														"boxes" : [ 															{
+																"box" : 																{
+																	"id" : "obj-5",
+																	"maxclass" : "comment",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 767.0, 229.0, 150.0, 20.0 ]
+																}
+
+															}
+, 															{
 																"box" : 																{
 																	"id" : "obj-36",
 																	"linecount" : 3,
@@ -2320,7 +2331,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 300.0, 57.0, 54.0, 50.0 ],
-																	"text" : "230 118 1 0 0 0 0 0"
+																	"text" : "111 172 0 0 0 0 0 0"
 																}
 
 															}
@@ -2355,7 +2366,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 74.0, 400.0, 50.0, 64.0 ],
-																	"text" : "0.74375 -0.004167"
+																	"text" : "0.909375 0.335417"
 																}
 
 															}
@@ -2536,7 +2547,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 645.0, 366.0, 50.0, 36.0 ],
-																	"text" : "0.254167"
+																	"text" : "0.141667"
 																}
 
 															}
@@ -2549,7 +2560,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 526.0, 366.0, 50.0, 36.0 ],
-																	"text" : "-0.28125"
+																	"text" : "-0.653125"
 																}
 
 															}
@@ -2596,8 +2607,8 @@
 																	"numinlets" : 7,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 392.0, 305.0, 303.0, 22.0 ],
-																	"text" : "if ($i5>$f1)&&($i5<$f3)&&($i6>$f2)&&($i6<$f4) then $i7"
+																	"patching_rect" : [ 392.0, 305.0, 305.0, 22.0 ],
+																	"text" : "if ($f5>$f1)&&($f5<$f3)&&($f6>$f2)&&($f6<$f4) then $i7"
 																}
 
 															}

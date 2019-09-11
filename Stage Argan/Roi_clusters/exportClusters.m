@@ -1,8 +1,10 @@
 clear all, close all
 
-%% Initialisation
+%Writes the clusters into .coll file
+
+%% Initialization
 load('workspace_re', 'ClusterGroups')
-file='clusters.txt';
+%file='clusters.txt';
 
 fileid=fopen('clusters.coll', 'w');
 
@@ -15,7 +17,7 @@ three=ClusterGroups.three.';
 four=ClusterGroups.four.';
 five=ClusterGroups.five.';
 
-%% Ecriture
+%% writing
 fprintf(fileid, '%s ', '1,');
 for ind = one
     fprintf(fileid, ' %d', ind);

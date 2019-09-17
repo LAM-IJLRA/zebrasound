@@ -2,8 +2,8 @@ clear all, close all
 
 % Writes mean values from imageJ into .coll like file
 
-file = 'roi_means.csv';
-out = 'means.txt';
+file = 'roi_means_raw.csv';
+out = 'means_raw.txt';
 dat=csvread(file, 1);
 
 frame = dat(:, 1);

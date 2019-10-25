@@ -1,9 +1,9 @@
 clear all, close all
 
-% Convertit les roi en coll, format ['nTop', 'nLeft', 'nBottom', 'nRight']
+% Converts Roi sets from ImageJ to collection files for Max, ['nTop', 'nLeft', 'nBottom', 'nRight']
 
-data='Roiset.zip';
-file='roitext.txt';
+data='Roiset.zip'; %ImageJ roi set
+file='roitext.txt'; %output file for Max
 
 roi=ReadImageJROI('RoiSet.zip');
 

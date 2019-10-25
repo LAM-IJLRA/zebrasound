@@ -1,9 +1,9 @@
 clear all, close all
 
-% Writes mean values from imageJ into .coll like file
+% Writes mean values from imageJ into .coll file ofr Max
 
-file = 'roi_means_raw.csv';
-out = 'means_raw.txt';
+file = 'roi_means_raw.csv'; %file from ImageJ
+out = 'means_raw.txt'; %output file for Max
 dat=csvread(file, 1);
 
 frame = dat(:, 1);

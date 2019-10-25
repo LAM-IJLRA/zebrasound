@@ -1,12 +1,12 @@
 clear all, close all
 
-%Writes the clusters into .coll file
+%Writes the clusters into .coll file used in Max
 
 %% Initialization
-load('workspace_re', 'ClusterGroups')
+load('workspace_re', 'ClusterGroups') %input file
 %file='clusters.txt';
 
-fileid=fopen('clusters.coll', 'w');
+fileid=fopen('clusters.coll', 'w'); %output file
 
 %% Extraction
 n=5;

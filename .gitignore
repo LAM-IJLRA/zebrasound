@@ -56,3 +56,9 @@ misc/
 *.tif
 *.png
 *.jpg
+Stage Argan/Roi_clusters/snd.aif
+Stage Argan/Roi_clusters/test_groups.json
+Stage Argan/Roi_clusters/v2/gamme
+Stage Argan/Roi_clusters/v3/Matlab script/clusterSynth~.p
+Stage Argan/Roi_clusters/v3/testbuff.aif
+Stage Argan/Roi_clusters/v3/testWave.maxpat

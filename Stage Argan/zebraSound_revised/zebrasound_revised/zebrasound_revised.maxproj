@@ -2,7 +2,7 @@
 	"name" : "zebrasound_revised",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3697205851,
+	"modificationdate" : 3697215908,
 	"viewrect" : [ 2407.0, 298.0, 302.0, 612.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -61,6 +61,11 @@
 				"kind" : "javascript",
 				"local" : 1
 			}
+,
+			"reset_toggles.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
 
 		}
 ,
@@ -86,6 +91,11 @@
 			}
 ,
 			"note_test2.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"clustersGain.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}

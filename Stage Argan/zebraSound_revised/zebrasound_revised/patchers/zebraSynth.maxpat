@@ -107,7 +107,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 223.0, 75.0, 80.0, 22.0 ],
-									"text" : "slide 220 220"
+									"text" : "slide 440 440"
 								}
 
 							}
@@ -119,7 +119,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 130.0, 75.0, 80.0, 22.0 ],
-									"text" : "slide 220 220"
+									"text" : "slide 440 440"
 								}
 
 							}

@@ -2,8 +2,8 @@
 	"name" : "zebrasound_revised",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3697215908,
-	"viewrect" : [ 2407.0, 298.0, 302.0, 612.0 ],
+	"modificationdate" : 3697458536,
+	"viewrect" : [ 693.0, 78.0, 302.0, 612.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -37,7 +37,7 @@
 		}
 ,
 		"code" : 		{
-			"compute_tot.js" : 			{
+			"compute_mean_vector.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -66,11 +66,26 @@
 				"kind" : "javascript",
 				"local" : 1
 			}
+,
+			"compute_tot.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"threshold_std_var.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
 
 		}
 ,
 		"data" : 		{
 			"roitext.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"clustersGain.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -91,11 +106,6 @@
 			}
 ,
 			"note_test2.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"clustersGain.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -144,6 +154,26 @@
 			}
 ,
 			"notes_bass" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"exportClusters.m" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"read_resultsImageJ.m" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"Results.csv" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"ResultsMinMax.csv" : 			{
 				"kind" : "file",
 				"local" : 1
 			}

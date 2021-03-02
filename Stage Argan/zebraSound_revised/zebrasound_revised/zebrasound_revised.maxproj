@@ -2,8 +2,8 @@
 	"name" : "zebrasound_revised",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3697458536,
-	"viewrect" : [ 693.0, 78.0, 302.0, 612.0 ],
+	"modificationdate" : 3697549602,
+	"viewrect" : [ 923.0, 140.0, 302.0, 612.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -62,7 +62,17 @@
 				"local" : 1
 			}
 ,
+			"thresh.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"reset_toggles.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"threshold_std_var.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -72,7 +82,7 @@
 				"local" : 1
 			}
 ,
-			"threshold_std_var.js" : 			{
+			"toolSet.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}

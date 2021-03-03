@@ -72,8 +72,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 221.0, 301.0, 87.0, 22.0 ],
-					"text" : "slide~ 100 100"
+					"patching_rect" : [ 221.0, 301.0, 100.0, 22.0 ],
+					"text" : "slide~ 1000 1000"
 				}
 
 			}
@@ -185,27 +185,12 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"code" : "pan = in2;\r\n\r\nout1 = (1 - pan) * in1;\r\nout2 = pan * in1;",
-									"fontface" : 0,
-									"fontname" : "Lucida Console",
-									"fontsize" : 12.0,
-									"id" : "obj-11",
-									"maxclass" : "codebox",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 601.0, 426.0, 94.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 457.0, 534.0, 107.0, 22.0 ],
+									"patching_rect" : [ 949.0, 70.0, 107.0, 22.0 ],
 									"text" : "scale -2.5 2.5 0. 1."
 								}
 
@@ -217,7 +202,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 457.0, 505.0, 65.0, 22.0 ],
+									"patching_rect" : [ 949.0, 41.0, 65.0, 22.0 ],
 									"text" : "param pos"
 								}
 
@@ -247,15 +232,15 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "Param slide_up(500);\r\nParam slide_down(500);\r\n\r\ninc_freq = in1;\r\ninc_amp = in2;\r\nmodulation_index = slide(in3, slide_up, slide_down);\r\nharmonicity = slide(in4, slide_up, slide_down);\r\n\r\nfrequency = slide(inc_freq, slide_up, slide_down);\r\nout_amp = slide(inc_amp, slide_up, slide_down);\r\n\r\nmodulating_frequency = frequency * harmonicity;\r\nmodulator_amp = modulating_frequency * modulation_index;\r\n\r\nmodulator, modulator_index = cycle(modulating_frequency);\r\n\r\nmodulator = modulator * modulator_amp;\r\n\r\ncarrier_frequency = frequency + modulator;\r\n\r\ncarrier, carrier_ind = cycle(carrier_frequency);\r\n\r\ncarrier = carrier * out_amp;\r\n\r\nout1 = carrier;",
+									"code" : "Param slide_up(1500);\r\nParam slide_down(1500);\r\n\r\n//inc_freq = in1;\r\n//inc_amp = in2;\r\nfrequency = slide(in1, slide_up, slide_down);\r\nout_amp = slide(in2, slide_up, slide_down);\r\nmodulation_index = slide(in3, slide_up, slide_down);\r\nharmonicity = slide(in4, slide_up, slide_down);\r\npan = slide(in5, slide_up, slide_down);\r\n\r\n//frequency = slide(inc_freq, slide_up, slide_down);\r\n//out_amp = slide(inc_amp, slide_up, slide_down);\r\n\r\nmodulating_frequency = frequency * harmonicity;\r\nmodulator_amp = modulating_frequency * modulation_index;\r\n\r\nmodulator, modulator_index = cycle(modulating_frequency);\r\n\r\nmodulator = modulator * modulator_amp;\r\n\r\ncarrier_frequency = frequency + modulator;\r\n\r\ncarrier, carrier_ind = cycle(carrier_frequency);\r\n\r\ncarrier = carrier * out_amp;\r\n\r\n// panning\r\nout1 = (1 - pan) * carrier;\r\nout2 = pan * carrier;",
 									"fontface" : 0,
 									"fontname" : "Lucida Console",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
 									"maxclass" : "codebox",
-									"numinlets" : 4,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numinlets" : 5,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 130.0, 786.0, 361.0 ]
 								}
 
@@ -322,7 +307,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 1 ],
+									"destination" : [ "obj-2", 4 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -330,21 +315,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"source" : [ "obj-11", 0 ]
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"source" : [ "obj-11", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"source" : [ "obj-2", 0 ]
+									"source" : [ "obj-2", 1 ]
 								}
 
 							}
@@ -618,8 +596,8 @@
 					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"fontname" : [ "Open Sans Semibold" ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -950,8 +928,8 @@
 					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
 					"fontname" : [ "HydrogenType" ],
-					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
 					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
+					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -974,9 +952,9 @@
 					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"fontname" : [ "Geneva" ],
-					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -1188,6 +1166,7 @@
 				"default" : 				{
 					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1196,8 +1175,7 @@
 						"angle" : 270.0,
 						"proportion" : 0.39
 					}
-,
-					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -1235,8 +1213,9 @@
 					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -1248,7 +1227,6 @@
 						"autogradient" : 0
 					}
 ,
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 				}
 ,
@@ -1351,8 +1329,8 @@
 , 			{
 				"name" : "purple",
 				"default" : 				{
-					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
-					"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+					"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

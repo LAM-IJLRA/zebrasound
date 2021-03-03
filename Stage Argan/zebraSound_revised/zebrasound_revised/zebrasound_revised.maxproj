@@ -2,8 +2,8 @@
 	"name" : "zebrasound_revised",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3697549602,
-	"viewrect" : [ 923.0, 140.0, 302.0, 612.0 ],
+	"modificationdate" : 3697637211,
+	"viewrect" : [ 77.0, 376.0, 302.0, 612.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -58,6 +58,16 @@
 			}
 ,
 			"comp_group_average.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"thresh_vector.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"groupItems.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}

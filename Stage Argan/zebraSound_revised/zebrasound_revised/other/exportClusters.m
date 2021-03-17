@@ -6,7 +6,7 @@ clear all, close all
 load('workspace', 'ClusterGroups')
 %file='clusters.txt';
 
-fileid=fopen('clusters_explant2.coll', 'w');
+fileid=fopen('../data/clusters_explant2.txt', 'w');
 
 %% Extraction
 n=5;

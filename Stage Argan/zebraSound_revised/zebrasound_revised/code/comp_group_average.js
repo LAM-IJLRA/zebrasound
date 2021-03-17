@@ -1,7 +1,7 @@
 // Compute the group parameter "Average" vector for the current frame
 
 inlets = 1;
-outlets = 1;
+outlets = 2;
 var N = 0.;
 
 var out_list = [0., 0., 0., 0., 0., 0., 0., 0., 0., 0.];
@@ -28,6 +28,7 @@ function bang(){
     };
   };
   outlet(0, out_list);
+  outlet(1, N_group);
   out_list = [0., 0., 0., 0., 0., 0., 0., 0., 0., 0.];
   N_group = [0., 0., 0., 0., 0., 0., 0., 0., 0., 0.];
 }

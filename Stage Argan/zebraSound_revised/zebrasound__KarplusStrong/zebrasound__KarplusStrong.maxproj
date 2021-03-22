@@ -2,8 +2,8 @@
 	"name" : "zebrasound__KarplusStrong",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3699266368,
-	"viewrect" : [ 528.0, 109.0, 458.0, 612.0 ],
+	"modificationdate" : 3699279126,
+	"viewrect" : [ 293.0, 137.0, 458.0, 586.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -82,12 +82,12 @@
 				"local" : 1
 			}
 ,
-			"thresh.js" : 			{
+			"groupItems.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
-			"groupItems.js" : 			{
+			"thresh.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -260,7 +260,7 @@
 
 	}
 ,
-	"detailsvisible" : 0,
+	"detailsvisible" : 1,
 	"amxdtype" : 0,
 	"readonly" : 0,
 	"devpathtype" : 0,

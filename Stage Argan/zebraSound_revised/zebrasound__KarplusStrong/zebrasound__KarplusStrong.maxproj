@@ -2,7 +2,7 @@
 	"name" : "zebrasound__KarplusStrong",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3699279126,
+	"modificationdate" : 3699619081,
 	"viewrect" : [ 293.0, 137.0, 458.0, 586.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -32,6 +32,16 @@
 			}
 ,
 			"testSynth.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"graph.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"graphGroup.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -108,6 +118,11 @@
 			}
 ,
 			"toolSet.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"addGraph.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}

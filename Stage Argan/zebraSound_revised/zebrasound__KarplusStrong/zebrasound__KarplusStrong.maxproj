@@ -2,7 +2,7 @@
 	"name" : "zebrasound__KarplusStrong",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3699619081,
+	"modificationdate" : 3700119505,
 	"viewrect" : [ 293.0, 137.0, 458.0, 586.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -102,6 +102,11 @@
 				"local" : 1
 			}
 ,
+			"simpleKS_with_envFollower.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
 			"reset_toggles.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
@@ -198,6 +203,11 @@
 		}
 ,
 		"other" : 		{
+			"dyn-range-comp.genexpr" : 			{
+				"kind" : "genexpr",
+				"local" : 1
+			}
+,
 			"clusters.coll" : 			{
 				"kind" : "file",
 				"local" : 1

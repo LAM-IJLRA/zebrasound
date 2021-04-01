@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
+		"rect" : [ 272.0, 169.0, 1410.0, 701.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1463,7 +1463,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 56.0, 85.0, 1852.0, 929.0 ],
+						"rect" : [ 56.0, 85.0, 1732.0, 929.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1492,6 +1492,179 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-88",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 700.75, 455.5, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 944.5, 143.75, 19.0, 20.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-89",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 791.0, 632.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 945.5, 236.5, 18.0, 20.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-87",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 685.75, 440.5, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 638.5, 58.0, 19.0, 20.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-86",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 686.25, 619.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 639.0, 236.5, 19.0, 20.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-85",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 791.75, 803.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 639.5, 415.0, 19.0, 20.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-84",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1091.0, 803.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 745.0, 599.0, 19.0, 20.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-83",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1076.0, 788.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 1044.25, 599.0, 19.0, 20.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-82",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 776.0, 617.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 639.5, 150.75, 18.0, 20.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-81",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 776.0, 788.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 639.5, 324.75, 18.0, 20.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-80",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1061.0, 773.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 1050.25, 679.0, 18.0, 20.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-79",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 761.0, 773.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 639.5, 495.75, 18.0, 20.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-78",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 746.0, 758.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 745.0, 680.75, 18.0, 20.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.235294117647059, 0.235294117647059, 0.231372549019608, 0.56 ],
+									"id" : "obj-70",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1280.0, 357.75, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 1010.25, 630.5, 47.0, 37.0 ],
+									"proportion" : 0.5,
+									"shape" : 3
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-77",
 									"maxclass" : "comment",
@@ -1562,7 +1735,6 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"arrow_orientation" : 3,
 									"bgcolor" : [ 0.235294117647059, 0.235294117647059, 0.231372549019608, 0.56 ],
 									"id" : "obj-50",
 									"maxclass" : "panel",
@@ -1571,27 +1743,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1402.5, 429.25, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1388.75, 342.25, 41.25, 125.0 ],
+									"presentation_rect" : [ 908.75, 448.5, 636.25, 38.5 ],
 									"proportion" : 0.5,
 									"shape" : 3
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 270.0,
-									"arrow_orientation" : 2,
-									"bgcolor" : [ 0.235294117647059, 0.235294117647059, 0.231372549019608, 0.56 ],
-									"id" : "obj-70",
-									"maxclass" : "panel",
-									"mode" : 0,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 1188.5, 332.75, 128.0, 128.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 900.25, 463.125, 516.75, 15.75 ],
-									"proportion" : 0.5,
-									"rounded" : 0
 								}
 
 							}
@@ -3238,6 +3392,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-47",
@@ -4510,7 +4665,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 50.0, 175.0, 153.0, 22.0 ],
+									"patching_rect" : [ 50.0, 175.0, 156.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -4518,7 +4673,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p waveshapint_parameters"
+									"text" : "p waveshaping_parameters"
 								}
 
 							}
@@ -7326,9 +7481,9 @@
 , 															{
 																"name" : "Default M4L",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
+																	"fontname" : [ "Arial Bold" ],
 																	"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-																	"fontname" : [ "Arial Bold" ]
+																	"fontsize" : [ 11.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -7337,9 +7492,9 @@
 , 															{
 																"name" : "Default M4L Poletti",
 																"default" : 																{
-																	"fontsize" : [ 10.0 ],
+																	"fontname" : [ "Arial Bold" ],
 																	"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-																	"fontname" : [ "Arial Bold" ]
+																	"fontsize" : [ 10.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -7348,9 +7503,9 @@
 , 															{
 																"name" : "Default M4L-1",
 																"default" : 																{
-																	"fontsize" : [ 11.0 ],
 																	"fontname" : [ "Arial" ],
 																	"fontface" : [ 1 ],
+																	"fontsize" : [ 11.0 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "gradient",
 																		"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -7385,9 +7540,9 @@
 , 															{
 																"name" : "Luca",
 																"default" : 																{
-																	"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-																	"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 																	"fontname" : [ "Open Sans Semibold" ],
+																	"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+																	"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 																	"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 																	"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 																	"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
@@ -7410,9 +7565,9 @@
 , 															{
 																"name" : "M4L 10 Bold",
 																"default" : 																{
-																	"fontsize" : [ 10.0 ],
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-																	"fontface" : [ 1 ]
+																	"fontface" : [ 1 ],
+																	"fontsize" : [ 10.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -7431,8 +7586,8 @@
 , 															{
 																"name" : "Matt",
 																"default" : 																{
-																	"fontsize" : [ 10.0 ],
-																	"fontface" : [ 1 ]
+																	"fontface" : [ 1 ],
+																	"fontsize" : [ 10.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -7716,13 +7871,13 @@
 , 															{
 																"name" : "WTF",
 																"default" : 																{
-																	"fontsize" : [ 18.0 ],
-																	"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+																	"fontname" : [ "HydrogenType" ],
 																	"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 																	"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-																	"fontname" : [ "HydrogenType" ],
+																	"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 																	"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
 																	"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+																	"fontsize" : [ 18.0 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "gradient",
 																		"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -7741,13 +7896,13 @@
 , 															{
 																"name" : "classic",
 																"default" : 																{
-																	"fontsize" : [ 9.0 ],
-																	"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+																	"fontname" : [ "Geneva" ],
 																	"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 																	"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-																	"fontname" : [ "Geneva" ],
+																	"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+																	"fontsize" : [ 9.0 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -7851,9 +8006,9 @@
 , 															{
 																"name" : "classicNodes",
 																"default" : 																{
-																	"fontsize" : [ 9.0 ],
 																	"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-																	"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+																	"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+																	"fontsize" : [ 9.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -7918,8 +8073,8 @@
 , 															{
 																"name" : "classicTextbutton",
 																"default" : 																{
-																	"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+																	"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -7957,8 +8112,8 @@
 , 															{
 																"name" : "dark-night-patch",
 																"default" : 																{
-																	"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 																	"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+																	"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 																	"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "gradient",
@@ -7982,9 +8137,9 @@
 , 															{
 																"name" : "jpatcher002",
 																"default" : 																{
-																	"fontsize" : [ 9.5 ],
-																	"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 																	"fontname" : [ "Ableton Sans Book" ],
+																	"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
+																	"fontsize" : [ 9.5 ],
 																	"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
@@ -8003,10 +8158,10 @@
 , 															{
 																"name" : "jpink",
 																"default" : 																{
-																	"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-																	"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 																	"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+																	"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 																	"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+																	"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 																	"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 																	"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 																	"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -8093,8 +8248,8 @@
 , 															{
 																"name" : "newobjYellow-1",
 																"default" : 																{
-																	"fontsize" : [ 12.059008 ],
-																	"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+																	"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+																	"fontsize" : [ 12.059008 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8103,8 +8258,8 @@
 , 															{
 																"name" : "newobjYellow-2",
 																"default" : 																{
-																	"fontsize" : [ 12.059008 ],
-																	"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+																	"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+																	"fontsize" : [ 12.059008 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8160,9 +8315,9 @@
 , 															{
 																"name" : "stb001",
 																"default" : 																{
-																	"fontsize" : [ 10.0 ],
 																	"fontname" : [ "Arial Bold" ],
-																	"fontface" : [ 1 ]
+																	"fontface" : [ 1 ],
+																	"fontsize" : [ 10.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8201,8 +8356,8 @@
 , 															{
 																"name" : "test",
 																"default" : 																{
-																	"fontsize" : [ 10.0 ],
-																	"fontface" : [ 1 ]
+																	"fontface" : [ 1 ],
+																	"fontsize" : [ 10.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -8211,11 +8366,11 @@
 , 															{
 																"name" : "whitey",
 																"default" : 																{
-																	"fontsize" : [ 36.0 ],
-																	"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 																	"fontname" : [ "Dirty Ego" ],
+																	"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 																	"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-																	"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
+																	"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+																	"fontsize" : [ 36.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -19956,6 +20111,17 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-52",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 832.0, 440.0, 150.0, 20.0 ],
+									"text" : "mod. index input"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-106",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -21068,7 +21234,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 2303.0, 303.0, 748.0, 482.0 ],
+										"rect" : [ 682.0, 391.0, 746.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -21150,7 +21316,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 451.0, 77.0, 29.5, 22.0 ],
-													"text" : "0.7"
+													"text" : "0.5"
 												}
 
 											}
@@ -21174,7 +21340,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 52.0, 77.0, 29.5, 22.0 ],
-													"text" : "66"
+													"text" : "34"
 												}
 
 											}
@@ -21541,19 +21707,6 @@
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 805.0, 260.0, 29.5, 22.0 ],
 									"text" : "* 1."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"format" : 6,
-									"id" : "obj-52",
-									"maxclass" : "flonum",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 1104.0, 243.0, 50.0, 22.0 ]
 								}
 
 							}
@@ -27028,7 +27181,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 437.0, 243.0, 46.0, 22.0 ],
+									"patching_rect" : [ 437.0, 265.0, 46.0, 22.0 ],
 									"text" : "r var_a"
 								}
 
@@ -27193,7 +27346,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 194.5, 380.0, 50.0, 36.0 ],
-																	"text" : "1.967172"
+																	"text" : "1.062154"
 																}
 
 															}
@@ -27761,8 +27914,8 @@
 													"id" : "obj-18",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 178.0, 223.0, 66.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"filename" : "thresh.js",
@@ -28921,8 +29074,8 @@
 																	"id" : "obj-4",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 82.0, 215.0, 105.0, 22.0 ],
 																	"saved_object_attributes" : 																	{
 																		"filename" : "thresh_vector.js",
@@ -29115,8 +29268,8 @@
 																	"id" : "obj-4",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 82.0, 215.0, 105.0, 22.0 ],
 																	"saved_object_attributes" : 																	{
 																		"filename" : "thresh_vector.js",
@@ -29322,8 +29475,8 @@
 																	"id" : "obj-4",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 82.0, 215.0, 105.0, 22.0 ],
 																	"saved_object_attributes" : 																	{
 																		"filename" : "thresh_vector.js",
@@ -29586,13 +29739,13 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-12",
-																	"linecount" : 335,
+																	"linecount" : 339,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 486.0, 342.0, 50.0, 4783.0 ],
-																	"text" : "0.888957 -2.370271 -1.993878 0.204873 0.716657 -2.547931 -5.181626 8.470658 1.726871 3.264515 -0.277387 6.484323 -1.298071 -0.333093 0.270049 1.613862 0.656722 -0.797605 2.554923 7.186328 2.246061 0.079769 4.113307 0.939276 1.697279 5.059448 -0.148391 1.933695 3.021864 0.043112 -4.52 -1.276432 -1.801322 0.87171 1.852997 5.259626 1.271006 1.070713 1.072036 0.204567 8.381471 -1.727416 3.782025 -3.193682 -5.017173 -5.362095 0.865263 0.720744 2.705448 2.295863 2.185558 1.864654 1.591052 -1.188584 -3.40918 0.3681 -1.424201 1.573319 -1.606371 -0.793588 0.653561 -0.434315 0.296442 1.102469 -1.079476 -2.132782 0.199786 -4.471609 1.440082 -2.228416 -1.086738 2.225853 1.919042 0.12422 -0.503829 -1.068326 1.468074 -2.167491 -3.115181 0.321845 0.803141 -3.242393 1.605487 1.007678 -1.131261 0.871943 -1.4342 -0.836916 2.701107 3.17 -0.704846 5.858325 -1.685125 -3.178353 -1.837208 -6.906212 -1.46978 -2.42 0.013311 -3.569687 -4.680269 1.2401 0.127021 6.2 1.066325 11.972138 -1.228017 8.917144 -1.878012 0.88349 0.393111 -0.903825 -2.983831 1.897457 -1.204075 1.113908 -1.798872 -3.386967 -1.514308 -0.576544 -0.671737 0.321186 1.106995 -0.931535 -1.013761 1.830315 0.021758 -0.231291 -1.527923 4.652122 -0.843271 -3.302526 2.457332 1.050218 -1.33506 0.541085 -2.382987 3.476995 -0.498589 -3.348214 -0.053956 -7.38215 0.26332 0.747451 -2.770335 1.081386 1.864184 -1.130781 2.2786 0.427835 -3.490807 -0.627878 -3.319706 5.568154 0.432424 -1.438816 0.613175 1.051927 -0.194459 -3.39434 -0.653171 -4.755014 4.894314 0.351342 -2.825162 -5.22513 0.867358 2.344543 0.158507 -5.17853 9.471911 8.381359 -1.109868"
+																	"text" : "2.483007 0.444162 0.060707 3.563532 0.92526 1.93025 0.376352 -1.024783 0.513093 -3.026108 -1.578906 3.87328 1.239457 1.701647 -1.262567 0.48532 -1.26556 -2.731358 -2.01272 1.41493 2.467601 0.452634 5.65 0.657924 1.9177 -4.181371 -3.268066 0.241792 2.513365 1.462552 -1.583993 -0.229991 1.03294 -4.359467 -0.461845 -2.380638 -3.765008 -2.404097 1.348483 -0.211651 3.810836 -0.361344 -2.427195 2.922965 2.251242 5.563572 1.162841 0.417808 0.731118 -3.079763 0.947117 1.535914 -0.050223 0.870573 3.984232 5.018621 -1.091231 1.619193 -3.245393 1.552439 -2.215967 2.868232 2.736002 -1.361477 -5.673968 2.194744 1.424716 -0.315156 3.510488 5.698608 -5.575454 0.550643 0.467345 -1.521256 0.336583 0.282147 -0.097149 0.60316 0.581441 1.661254 -0.058825 1.115161 1.527175 -2.608313 5.078762 -1.739188 1.774684 1.227767 -0.798377 -0.322963 3.105356 -2.922138 -1.068665 1.547615 -0.762026 3.814445 0.413522 -4.267982 0.599876 1.667911 1.085619 -0.671362 -1.81176 4.409628 -5.556873 2.501512 1.419301 6.733199 -3.586409 0.942084 -1.417806 -1.166529 4.107752 5.737496 -3.214309 0.129428 -0.954114 -5.738902 0.633102 1.64194 1.253251 -0.462171 -1.667716 -0.701897 -0.435151 -1.110276 -2.264267 2.125341 0.811353 -0.019384 -3.244448 1.129224 0.044296 0.850232 -1.941569 0.69372 -1.554508 -2.768326 0.753097 2.035469 -4.295797 -1.397233 3.053914 3.354866 1.085802 1.447616 -0.354966 -1.554458 1.763534 -2.65367 -2.613027 -0.842032 -2.217764 2.994065 2.3719 5.768207 -0.31378 -2.898386 1.825454 0.947908 2.75085 3.285934 -0.237496 -1.568656 2.174727 -2.662175 0.504605 3.898441 4.3 2.9 -6.873343 4.50144 -2.35389"
 																}
 
 															}
@@ -32104,8 +32257,8 @@
 																	"id" : "obj-4",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 82.0, 215.0, 105.0, 22.0 ],
 																	"saved_object_attributes" : 																	{
 																		"filename" : "thresh_vector.js",
@@ -32876,8 +33029,8 @@
 																									"id" : "obj-14",
 																									"maxclass" : "newobj",
 																									"numinlets" : 1,
-																									"numoutlets" : 2,
-																									"outlettype" : [ "", "" ],
+																									"numoutlets" : 1,
+																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 205.0, 374.0, 149.0, 22.0 ],
 																									"saved_object_attributes" : 																									{
 																										"filename" : "comp_group_average.js",
@@ -33390,8 +33543,8 @@
 																					"id" : "obj-14",
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
-																					"numoutlets" : 2,
-																					"outlettype" : [ "", "" ],
+																					"numoutlets" : 1,
+																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 205.0, 374.0, 149.0, 22.0 ],
 																					"saved_object_attributes" : 																					{
 																						"filename" : "comp_group_average.js",
@@ -34326,6 +34479,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-22", 0 ],
 									"order" : 1,
 									"source" : [ "obj-13", 0 ]
@@ -34334,6 +34488,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 1.0, 0.337254901960784, 0.619607843137255, 1.0 ],
 									"destination" : [ "obj-36", 0 ],
 									"midpoints" : [ 436.0, 249.0, 423.0, 249.0, 423.0, 213.0, 936.0, 213.0, 936.0, 270.0, 1036.5, 270.0 ],
 									"order" : 0,
@@ -34343,6 +34498,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.843137254901961, 0.741176470588235, 0.431372549019608, 1.0 ],
 									"destination" : [ "obj-10", 3 ],
 									"source" : [ "obj-14", 0 ]
 								}
@@ -34350,6 +34506,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.843137254901961, 0.741176470588235, 0.431372549019608, 1.0 ],
 									"destination" : [ "obj-14", 0 ],
 									"source" : [ "obj-15", 0 ]
 								}
@@ -34373,6 +34530,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.403921568627451, 0.109803921568627, 0.701960784313725, 1.0 ],
 									"destination" : [ "obj-60", 0 ],
 									"source" : [ "obj-18", 0 ]
 								}
@@ -34387,6 +34545,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.843137254901961, 0.741176470588235, 0.431372549019608, 1.0 ],
 									"destination" : [ "obj-11", 0 ],
 									"midpoints" : [ 147.5, 213.0, 814.5, 213.0 ],
 									"order" : 2,
@@ -34396,6 +34555,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-13", 0 ],
 									"midpoints" : [ 147.5, 210.0, 436.0, 210.0 ],
 									"order" : 5,
@@ -34405,6 +34565,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-19", 0 ],
 									"midpoints" : [ 147.5, 211.0, 379.5, 211.0 ],
 									"order" : 6,
@@ -34414,6 +34575,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.403921568627451, 0.109803921568627, 0.701960784313725, 1.0 ],
 									"destination" : [ "obj-27", 0 ],
 									"midpoints" : [ 147.5, 212.0, 592.5, 212.0 ],
 									"order" : 4,
@@ -34423,6 +34585,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-3", 0 ],
 									"midpoints" : [ 147.5, 219.0, 270.0, 219.0 ],
 									"order" : 7,
@@ -34432,6 +34595,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-33", 0 ],
 									"midpoints" : [ 147.5, 213.0, 1258.750000000000227, 213.0 ],
 									"order" : 1,
@@ -34441,6 +34605,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.082352941176471, 0.250980392156863, 0.431372549019608, 1.0 ],
 									"destination" : [ "obj-47", 0 ],
 									"midpoints" : [ 147.5, 213.0, 1481.000000000000227, 213.0 ],
 									"order" : 0,
@@ -34450,6 +34615,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.403921568627451, 0.109803921568627, 0.701960784313725, 1.0 ],
 									"destination" : [ "obj-58", 0 ],
 									"midpoints" : [ 147.5, 213.0, 654.5, 213.0 ],
 									"order" : 3,
@@ -34459,6 +34625,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.811764705882353, 0.372549019607843, 0.372549019607843, 1.0 ],
 									"destination" : [ "obj-7", 0 ],
 									"order" : 8,
 									"source" : [ "obj-2", 0 ]
@@ -34467,6 +34634,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-46", 0 ],
 									"midpoints" : [ 270.0, 334.0, 270.0, 334.0 ],
 									"source" : [ "obj-20", 0 ]
@@ -34475,6 +34643,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-25", 1 ],
 									"source" : [ "obj-21", 0 ]
 								}
@@ -34482,6 +34651,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-56", 1 ],
 									"source" : [ "obj-22", 0 ]
 								}
@@ -34489,6 +34659,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-22", 1 ],
 									"order" : 0,
 									"source" : [ "obj-23", 0 ]
@@ -34497,6 +34668,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-43", 0 ],
 									"order" : 1,
 									"source" : [ "obj-23", 0 ]
@@ -34519,6 +34691,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-10", 1 ],
 									"source" : [ "obj-25", 0 ]
 								}
@@ -34526,16 +34699,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-52", 0 ],
-									"order" : 0,
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
+									"color" : [ 0.843137254901961, 0.741176470588235, 0.431372549019608, 1.0 ],
 									"destination" : [ "obj-53", 1 ],
-									"order" : 1,
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -34556,6 +34721,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.843137254901961, 0.741176470588235, 0.431372549019608, 1.0 ],
 									"destination" : [ "obj-31", 0 ],
 									"source" : [ "obj-29", 0 ]
 								}
@@ -34563,6 +34729,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-20", 0 ],
 									"source" : [ "obj-3", 0 ]
 								}
@@ -34584,6 +34751,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.843137254901961, 0.741176470588235, 0.431372549019608, 1.0 ],
 									"destination" : [ "obj-14", 1 ],
 									"source" : [ "obj-31", 0 ]
 								}
@@ -34598,6 +34766,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-10", 5 ],
 									"source" : [ "obj-33", 0 ]
 								}
@@ -34612,6 +34781,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 1.0, 0.337254901960784, 0.619607843137255, 1.0 ],
 									"destination" : [ "obj-10", 4 ],
 									"source" : [ "obj-36", 0 ]
 								}
@@ -34694,6 +34864,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-46", 1 ],
 									"source" : [ "obj-43", 0 ]
 								}
@@ -34722,6 +34893,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.082352941176471, 0.250980392156863, 0.431372549019608, 1.0 ],
 									"destination" : [ "obj-10", 6 ],
 									"source" : [ "obj-47", 0 ]
 								}
@@ -34791,6 +34963,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.533333333333333, 0.749019607843137, 0.533333333333333, 1.0 ],
 									"destination" : [ "obj-25", 0 ],
 									"source" : [ "obj-56", 0 ]
 								}
@@ -34798,6 +34971,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.403921568627451, 0.109803921568627, 0.701960784313725, 1.0 ],
 									"destination" : [ "obj-60", 1 ],
 									"source" : [ "obj-58", 0 ]
 								}
@@ -34812,6 +34986,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.403921568627451, 0.109803921568627, 0.701960784313725, 1.0 ],
 									"destination" : [ "obj-10", 2 ],
 									"source" : [ "obj-60", 0 ]
 								}
@@ -34819,6 +34994,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.811764705882353, 0.372549019607843, 0.372549019607843, 1.0 ],
 									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-7", 0 ]
 								}
@@ -34863,6 +35039,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.843137254901961, 0.741176470588235, 0.431372549019608, 1.0 ],
 									"destination" : [ "obj-9", 0 ],
 									"midpoints" : [ 147.5, 105.0, 908.5, 105.0 ],
 									"order" : 0,
@@ -34879,6 +35056,7 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.843137254901961, 0.741176470588235, 0.431372549019608, 1.0 ],
 									"destination" : [ "obj-11", 1 ],
 									"order" : 1,
 									"source" : [ "obj-9", 0 ]
@@ -34946,9 +35124,9 @@
 , 							{
 								"name" : "Default M4L",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
+									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontsize" : [ 11.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34957,9 +35135,9 @@
 , 							{
 								"name" : "Default M4L Poletti",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
+									"fontname" : [ "Arial Bold" ],
 									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontname" : [ "Arial Bold" ]
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -34968,9 +35146,9 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ],
 									"fontface" : [ 1 ],
+									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -35005,9 +35183,9 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"fontname" : [ "Open Sans Semibold" ],
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
@@ -35030,9 +35208,9 @@
 , 							{
 								"name" : "M4L 10 Bold",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35051,8 +35229,8 @@
 , 							{
 								"name" : "Matt",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35336,13 +35514,13 @@
 , 							{
 								"name" : "WTF",
 								"default" : 								{
-									"fontsize" : [ 18.0 ],
-									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+									"fontname" : [ "HydrogenType" ],
 									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-									"fontname" : [ "HydrogenType" ],
+									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
 									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+									"fontsize" : [ 18.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -35361,13 +35539,13 @@
 , 							{
 								"name" : "classic",
 								"default" : 								{
-									"fontsize" : [ 9.0 ],
-									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontname" : [ "Geneva" ],
 									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Geneva" ],
+									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+									"fontsize" : [ 9.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -35471,9 +35649,9 @@
 , 							{
 								"name" : "classicNodes",
 								"default" : 								{
-									"fontsize" : [ 9.0 ],
 									"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"fontsize" : [ 9.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35538,8 +35716,8 @@
 , 							{
 								"name" : "classicTextbutton",
 								"default" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35577,8 +35755,8 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -35602,9 +35780,9 @@
 , 							{
 								"name" : "jpatcher002",
 								"default" : 								{
-									"fontsize" : [ 9.5 ],
-									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"fontname" : [ "Ableton Sans Book" ],
+									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
+									"fontsize" : [ 9.5 ],
 									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -35623,10 +35801,10 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -35713,8 +35891,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35723,8 +35901,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35780,9 +35958,9 @@
 , 							{
 								"name" : "stb001",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
 									"fontname" : [ "Arial Bold" ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35821,8 +35999,8 @@
 , 							{
 								"name" : "test",
 								"default" : 								{
-									"fontsize" : [ 10.0 ],
-									"fontface" : [ 1 ]
+									"fontface" : [ 1 ],
+									"fontsize" : [ 10.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -35831,11 +36009,11 @@
 , 							{
 								"name" : "whitey",
 								"default" : 								{
-									"fontsize" : [ 36.0 ],
-									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 									"fontname" : [ "Dirty Ego" ],
+									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
+									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+									"fontsize" : [ 36.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -36002,7 +36180,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -5.0, 312.0, 1634.0, 705.0 ],
+						"rect" : [ -61.0, 225.0, 1634.0, 705.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -36566,7 +36744,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 95.0, 260.0, 65.0, 36.0 ],
-													"text" : "498 2 0 0 0 0 0 0"
+													"text" : "120 76 0 0 0 0 0 0"
 												}
 
 											}
@@ -36859,13 +37037,13 @@
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-10",
-																	"linecount" : 3,
+																	"linecount" : 4,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 324.0, 285.0, 59.0, 64.0 ],
-																	"text" : "mouseidle 498 2 0 0 0 0 0 0"
+																	"text" : "mouseidle 120 76 0 0 0 0 0 0"
 																}
 
 															}
@@ -41385,9 +41563,9 @@
 , 											{
 												"name" : "Default M4L",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
+													"fontname" : [ "Arial Bold" ],
 													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-													"fontname" : [ "Arial Bold" ]
+													"fontsize" : [ 11.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41396,9 +41574,9 @@
 , 											{
 												"name" : "Default M4L Poletti",
 												"default" : 												{
-													"fontsize" : [ 10.0 ],
+													"fontname" : [ "Arial Bold" ],
 													"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-													"fontname" : [ "Arial Bold" ]
+													"fontsize" : [ 10.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41407,9 +41585,9 @@
 , 											{
 												"name" : "Default M4L-1",
 												"default" : 												{
-													"fontsize" : [ 11.0 ],
 													"fontname" : [ "Arial" ],
 													"fontface" : [ 1 ],
+													"fontsize" : [ 11.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -41444,9 +41622,9 @@
 , 											{
 												"name" : "Luca",
 												"default" : 												{
-													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 													"fontname" : [ "Open Sans Semibold" ],
+													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+													"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 													"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 													"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 													"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
@@ -41469,9 +41647,9 @@
 , 											{
 												"name" : "M4L 10 Bold",
 												"default" : 												{
-													"fontsize" : [ 10.0 ],
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-													"fontface" : [ 1 ]
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41490,8 +41668,8 @@
 , 											{
 												"name" : "Matt",
 												"default" : 												{
-													"fontsize" : [ 10.0 ],
-													"fontface" : [ 1 ]
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41775,13 +41953,13 @@
 , 											{
 												"name" : "WTF",
 												"default" : 												{
-													"fontsize" : [ 18.0 ],
-													"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+													"fontname" : [ "HydrogenType" ],
 													"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 													"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-													"fontname" : [ "HydrogenType" ],
+													"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 													"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
 													"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+													"fontsize" : [ 18.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -41800,13 +41978,13 @@
 , 											{
 												"name" : "classic",
 												"default" : 												{
-													"fontsize" : [ 9.0 ],
-													"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+													"fontname" : [ "Geneva" ],
 													"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 													"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Geneva" ],
+													"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+													"fontsize" : [ 9.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -41910,9 +42088,9 @@
 , 											{
 												"name" : "classicNodes",
 												"default" : 												{
-													"fontsize" : [ 9.0 ],
 													"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-													"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+													"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+													"fontsize" : [ 9.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -41977,8 +42155,8 @@
 , 											{
 												"name" : "classicTextbutton",
 												"default" : 												{
-													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -42016,8 +42194,8 @@
 , 											{
 												"name" : "dark-night-patch",
 												"default" : 												{
-													"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 													"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+													"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 													"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
@@ -42041,9 +42219,9 @@
 , 											{
 												"name" : "jpatcher002",
 												"default" : 												{
-													"fontsize" : [ 9.5 ],
-													"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 													"fontname" : [ "Ableton Sans Book" ],
+													"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
+													"fontsize" : [ 9.5 ],
 													"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
@@ -42062,10 +42240,10 @@
 , 											{
 												"name" : "jpink",
 												"default" : 												{
-													"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+													"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+													"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -42152,8 +42330,8 @@
 , 											{
 												"name" : "newobjYellow-1",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -42162,8 +42340,8 @@
 , 											{
 												"name" : "newobjYellow-2",
 												"default" : 												{
-													"fontsize" : [ 12.059008 ],
-													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+													"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+													"fontsize" : [ 12.059008 ]
 												}
 ,
 												"parentstyle" : "",
@@ -42219,9 +42397,9 @@
 , 											{
 												"name" : "stb001",
 												"default" : 												{
-													"fontsize" : [ 10.0 ],
 													"fontname" : [ "Arial Bold" ],
-													"fontface" : [ 1 ]
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -42260,8 +42438,8 @@
 , 											{
 												"name" : "test",
 												"default" : 												{
-													"fontsize" : [ 10.0 ],
-													"fontface" : [ 1 ]
+													"fontface" : [ 1 ],
+													"fontsize" : [ 10.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -42270,11 +42448,11 @@
 , 											{
 												"name" : "whitey",
 												"default" : 												{
-													"fontsize" : [ 36.0 ],
-													"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 													"fontname" : [ "Dirty Ego" ],
+													"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 													"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-													"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
+													"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+													"fontsize" : [ 36.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -42348,7 +42526,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 92.0, 30.0, 154.0, 62.0 ],
-													"text" : "get the position of the mouse on the video diplay, draw a red dot at the position"
+													"text" : "get the position of the mouse on the video display, draw a dot at the position"
 												}
 
 											}
@@ -42359,19 +42537,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 161.0, 339.5, 258.0, 22.0 ],
-													"text" : "reset, glcolor 1. 1. 1., moveto $1 $2, circle 0.05"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-11",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 57.0, 305.0, 50.0, 22.0 ]
+													"patching_rect" : [ 161.0, 339.5, 278.0, 22.0 ],
+													"text" : "reset, glcolor 1. 1. 1. 0.5, moveto $1 $2, circle 0.05"
 												}
 
 											}
@@ -42389,18 +42556,6 @@
 											}
 , 											{
 												"box" : 												{
-													"id" : "obj-8",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 346.0, 245.0, 120.0, 22.0 ],
-													"text" : "2.111428 0.811434"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"id" : "obj-6",
 													"maxclass" : "message",
 													"numinlets" : 2,
@@ -42408,18 +42563,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 161.0, 184.0, 85.0, 22.0 ],
 													"text" : "$2 $3"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-3",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 346.0, 159.0, 52.0, 22.0 ],
-													"text" : "498 2"
 												}
 
 											}
@@ -42513,7 +42656,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 289.0, 333.0, 135.0, 22.0 ],
-																	"text" : "2.111428 0.811434"
+																	"text" : "-1.100322 0.182679"
 																}
 
 															}
@@ -42549,7 +42692,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 254.5, 80.0, 213.0, 22.0 ],
-																	"text" : "screentoworld 498 2"
+																	"text" : "screentoworld 120 76"
 																}
 
 															}
@@ -42573,7 +42716,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 66.0, 73.0, 50.0, 36.0 ],
-																	"text" : "498 2"
+																	"text" : "120 76"
 																}
 
 															}
@@ -42712,15 +42855,6 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-33", 0 ],
-													"order" : 1,
-													"source" : [ "obj-27", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-8", 1 ],
-													"order" : 0,
 													"source" : [ "obj-27", 0 ]
 												}
 
@@ -42735,15 +42869,6 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-27", 0 ],
-													"order" : 1,
-													"source" : [ "obj-6", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-3", 1 ],
-													"order" : 0,
 													"source" : [ "obj-6", 0 ]
 												}
 
@@ -44729,15 +44854,15 @@
 			}
 , 			{
 				"name" : "simpleKS_with_envFollower.gendsp",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "D:/Documents/Patchs/patches/Max/GenDsp Library",
+				"patcherrelativepath" : "../../../../../../Patchs/patches/Max/GenDsp Library",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
@@ -44750,1436 +44875,1408 @@
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dyn-range-comp.genexpr",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "D:/Documents/Max 8/Packages/th.comp/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/th.comp/code",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp_group_average.js",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/code",
-				"patcherrelativepath" : "../code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thresh_vector.js",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/code",
-				"patcherrelativepath" : "../code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "groupItems.js",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/code",
-				"patcherrelativepath" : "../code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "clustersGain.txt",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thresh.js",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "D:/Documents/Max 8/Packages/zebrasound_revised/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zebrasound_revised/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reset_toggles.js",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "D:/Documents/Max 8/Packages/zebrasound_revised/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zebrasound_revised/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -46192,37 +46289,30 @@
 			}
 , 			{
 				"name" : "compute_mean_vector.js",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "D:/Documents/Max 8/Packages/zebrasound_revised/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zebrasound_revised/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compute_std_div.js",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "D:/Documents/Max 8/Packages/zebrasound_revised/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zebrasound_revised/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "normalized_by_max.js",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "D:/Documents/Max 8/Packages/zebrasound_revised/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zebrasound_revised/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "normalized_by_overall_max.js",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "D:/Documents/Max 8/Packages/zebrasound_revised/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zebrasound_revised/code",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sigma.png",
-				"bootpath" : "D:/Documents/GitRepo/zebrasound/Stage Argan/zebraSound_revised/zebrasound__KarplusStrong/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
@@ -46265,9 +46355,9 @@
 , 			{
 				"name" : "Default M4L",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -46276,9 +46366,9 @@
 , 			{
 				"name" : "Default M4L Poletti",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ],
 					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-					"fontname" : [ "Arial Bold" ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -46287,9 +46377,9 @@
 , 			{
 				"name" : "Default M4L-1",
 				"default" : 				{
-					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Arial" ],
 					"fontface" : [ 1 ],
+					"fontsize" : [ 11.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -46324,9 +46414,9 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"fontname" : [ "Open Sans Semibold" ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
@@ -46349,9 +46439,9 @@
 , 			{
 				"name" : "M4L 10 Bold",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 0.25 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -46370,8 +46460,8 @@
 , 			{
 				"name" : "Matt",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -46655,13 +46745,13 @@
 , 			{
 				"name" : "WTF",
 				"default" : 				{
-					"fontsize" : [ 18.0 ],
-					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
+					"fontname" : [ "HydrogenType" ],
 					"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
 					"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
-					"fontname" : [ "HydrogenType" ],
+					"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
 					"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
 					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+					"fontsize" : [ 18.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -46680,13 +46770,13 @@
 , 			{
 				"name" : "classic",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
-					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"fontname" : [ "Geneva" ],
 					"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Geneva" ],
+					"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+					"fontsize" : [ 9.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -46790,9 +46880,9 @@
 , 			{
 				"name" : "classicNodes",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
 					"color" : [ 0.839216, 0.839216, 0.839216, 1.0 ],
-					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+					"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -46857,8 +46947,8 @@
 , 			{
 				"name" : "classicTextbutton",
 				"default" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -46896,8 +46986,8 @@
 , 			{
 				"name" : "dark-night-patch",
 				"default" : 				{
-					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -46921,9 +47011,9 @@
 , 			{
 				"name" : "jpatcher002",
 				"default" : 				{
-					"fontsize" : [ 9.5 ],
-					"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 					"fontname" : [ "Ableton Sans Book" ],
+					"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
+					"fontsize" : [ 9.5 ],
 					"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -46942,10 +47032,10 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -47032,8 +47122,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -47042,8 +47132,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -47099,9 +47189,9 @@
 , 			{
 				"name" : "stb001",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
 					"fontname" : [ "Arial Bold" ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -47140,8 +47230,8 @@
 , 			{
 				"name" : "test",
 				"default" : 				{
-					"fontsize" : [ 10.0 ],
-					"fontface" : [ 1 ]
+					"fontface" : [ 1 ],
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -47150,11 +47240,11 @@
 , 			{
 				"name" : "whitey",
 				"default" : 				{
-					"fontsize" : [ 36.0 ],
-					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 					"fontname" : [ "Dirty Ego" ],
+					"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 					"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
-					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
+					"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"fontsize" : [ 36.0 ]
 				}
 ,
 				"parentstyle" : "",

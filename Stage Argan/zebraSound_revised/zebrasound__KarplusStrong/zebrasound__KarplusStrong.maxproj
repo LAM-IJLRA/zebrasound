@@ -2,7 +2,7 @@
 	"name" : "zebrasound__KarplusStrong",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3700119505,
+	"modificationdate" : 3700130483,
 	"viewrect" : [ 293.0, 137.0, 458.0, 586.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,

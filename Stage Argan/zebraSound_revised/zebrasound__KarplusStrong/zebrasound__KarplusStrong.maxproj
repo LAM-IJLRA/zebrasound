@@ -2,8 +2,8 @@
 	"name" : "zebrasound__KarplusStrong",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3700130483,
-	"viewrect" : [ 293.0, 137.0, 458.0, 586.0 ],
+	"modificationdate" : 3702986536,
+	"viewrect" : [ 282.0, 140.0, 458.0, 586.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -15,7 +15,7 @@
 				"local" : 1
 			}
 ,
-			"zebraSynth.maxpat" : 			{
+			"testSynth.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -25,15 +25,15 @@
 				"local" : 1
 			}
 ,
+			"zebraSynth.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"main.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"testSynth.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"graph.maxpat" : 			{
@@ -107,7 +107,17 @@
 				"local" : 1
 			}
 ,
+			"computeGroupSize.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"reset_toggles.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"switchClusters.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -131,6 +141,16 @@
 				"kind" : "javascript",
 				"local" : 1
 			}
+,
+			"normalizeSizes.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"runningAverage.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
 
 		}
 ,
@@ -145,12 +165,22 @@
 				"local" : 1
 			}
 ,
-			"notes_3.txt" : 			{
+			"notes_bell.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
 			"clustersGain.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_3.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notesCombFilter.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -196,6 +226,56 @@
 			}
 ,
 			"notes_2.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_AminorChord.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_AmionorNatural.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_CmajorChord.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_CmajorPentatonic_octaves.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_CmajorPentatonic_one_octaves.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_glass_harmonica.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_major_scale.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_metallic_percusstion.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_octave.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_SciFi.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}

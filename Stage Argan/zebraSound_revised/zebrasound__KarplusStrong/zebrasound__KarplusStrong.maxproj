@@ -2,7 +2,7 @@
 	"name" : "zebrasound__KarplusStrong",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3702986536,
+	"modificationdate" : 3703075730,
 	"viewrect" : [ 282.0, 140.0, 458.0, 586.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -102,6 +102,11 @@
 				"local" : 1
 			}
 ,
+			"runningAverage.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"simpleKS_with_envFollower.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
@@ -146,11 +151,6 @@
 				"kind" : "javascript",
 				"local" : 1
 			}
-,
-			"runningAverage.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
 
 		}
 ,
@@ -165,7 +165,7 @@
 				"local" : 1
 			}
 ,
-			"notes_bell.txt" : 			{
+			"notes_3.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -175,7 +175,7 @@
 				"local" : 1
 			}
 ,
-			"notes_3.txt" : 			{
+			"notes_bell.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -230,31 +230,6 @@
 				"local" : 1
 			}
 ,
-			"notes_AminorChord.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"notes_AmionorNatural.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"notes_CmajorChord.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"notes_CmajorPentatonic_octaves.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"notes_CmajorPentatonic_one_octaves.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
 			"notes_glass_harmonica.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
@@ -276,6 +251,36 @@
 			}
 ,
 			"notes_SciFi.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_Aminor_Chord.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_Cmajor_Pentatonic_one_octave.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_Cmajor_Chord.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_Cmajor_Pentatonic_octaves.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_AminorNatural_scale.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"notes_Cmajor_scale.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}

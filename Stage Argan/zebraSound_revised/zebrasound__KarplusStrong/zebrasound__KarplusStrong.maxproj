@@ -2,8 +2,8 @@
 	"name" : "zebrasound__KarplusStrong",
 	"version" : 1,
 	"creationdate" : 3696858298,
-	"modificationdate" : 3703075730,
-	"viewrect" : [ 282.0, 140.0, 458.0, 586.0 ],
+	"modificationdate" : 3703137071,
+	"viewrect" : [ 390.0, 139.0, 458.0, 586.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -11,11 +11,6 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"testPatch.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"testSynth.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -212,11 +207,6 @@
 ,
 			"groupsColor.json" : 			{
 				"kind" : "json",
-				"local" : 1
-			}
-,
-			"note_test2.txt" : 			{
-				"kind" : "textfile",
 				"local" : 1
 			}
 ,

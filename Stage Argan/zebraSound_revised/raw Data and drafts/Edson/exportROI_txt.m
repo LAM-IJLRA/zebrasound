@@ -2,8 +2,8 @@ clear all, close all
 
 % Convertit les roi en coll, format ['nTop', 'nLeft', 'nBottom', 'nRight']
 
-data='Roiset.zip';
-file='roitext.txt';
+data='Roiset.zip'; %input file
+file='roitext.txt'; %output file
 
 roi=ReadImageJROI('RoiSet.zip');
 

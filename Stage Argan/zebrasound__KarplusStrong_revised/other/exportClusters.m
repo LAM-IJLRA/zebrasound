@@ -1,10 +1,14 @@
 clear all, close all
 
-%Writes the clusters into .coll file
+%% Writes the clusters into .coll file
+%the workspace must contain a strusture named ClusterGroups
+%the structure must contain the fields one, two, three...
 
 %% Initialization
-load('workspace_deprecated', 'ClusterGroups')
-fileid=fopen('handmadeclusters.txt', 'w');
+load('workspace', 'ClusterGroups') %input workspace
+
+
+fileid=fopen('../data/clusters_explant2.txt', 'w'); % output file
 
 %% Extraction
 n=5;
@@ -16,31 +20,31 @@ four=ClusterGroups.four.';
 five=ClusterGroups.five.';
 
 %% writing
-fprintf(fileid, '%s ', '0,');
+fprintf(fileid, '%s ', '1,');
 for ind = one
     fprintf(fileid, ' %d', ind);
 end
 fprintf(fileid, '%c\n', ';');
 
-fprintf(fileid, '%s ', '0,');
+fprintf(fileid, '%s ', '2,');
 for ind = two
     fprintf(fileid, ' %d', ind);
 end
 fprintf(fileid, '%c\n', ';');
 
-fprintf(fileid, '%s ', '0,');
+fprintf(fileid, '%s ', '3,');
 for ind = three
     fprintf(fileid, ' %d', ind);
 end
 fprintf(fileid, '%c\n', ';');
 
-fprintf(fileid, '%s ', '0,');
+fprintf(fileid, '%s ', '4,');
 for ind = four
     fprintf(fileid, ' %d', ind);
 end
 fprintf(fileid, '%c\n', ';');
 
-fprintf(fileid, '%s ', '0,');
+fprintf(fileid, '%s ', '5,');
 for ind = five
     fprintf(fileid, ' %d', ind);
 end

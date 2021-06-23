@@ -2,7 +2,11 @@
 	"name" : "zebrasound__KarplusStrong_revised",
 	"version" : 1,
 	"creationdate" : 3696858298,
+<<<<<<< HEAD
 	"modificationdate" : 3706609807,
+=======
+	"modificationdate" : 3705056118,
+>>>>>>> 079c30db4c4d58bfa3dfb155ef8e7962207eef1d
 	"viewrect" : [ 410.0, 214.0, 458.0, 529.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -32,8 +36,12 @@
 			}
 ,
 			"komp.maxpat" : 			{
+<<<<<<< HEAD
 				"kind" : "patcher",
 				"local" : 1
+=======
+				"kind" : "patcher"
+>>>>>>> 079c30db4c4d58bfa3dfb155ef8e7962207eef1d
 			}
 ,
 			"komp-ballistics.maxpat" : 			{

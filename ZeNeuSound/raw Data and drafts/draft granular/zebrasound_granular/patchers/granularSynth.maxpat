@@ -105,7 +105,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 357.0, 281.0, 683.0, 705.0 ],
+						"rect" : [ 697.0, 214.0, 683.0, 705.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -205,7 +205,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "Param rate(0);\r\nParam onOff(0);\r\nBuffer my_buff(\"buff0\");\r\nParam slope(0.16);\r\nParam a_input(1.); //coeficient for asymetrical hanning window\r\n\r\n//get buffer Parameters\r\ndim = dim(my_buff);\t\r\nTe = 1/samplerate;\r\nfreq = 1/(Te*dim);\r\n\r\n// get parameter for next grain\r\nAmp = in1;\r\na = slide(a_input, 1500,1500);\r\nsample, index = peek(my_buff, 0);\r\nrate_ = slide(rate, 1500,1500);\r\npan = slide(in2, 1500, 1500);\r\n\r\n// emit next grain\r\nif ((index != dim)&&onOff){\r\n\tindex = phasor(freq * rate_, 0)*dim;\r\n\r\n\tsample, index2 = peek(my_buff, index);\r\n\r\n\t//scaling = scale(index, 0., dim, 1., 0., slope);\r\n\t// window\r\n\r\n\t//scaling = pow(sin(3.14 * pow(index, a) / pow(dim, a)),2); //skewed hanning window\r\n\tscaling = 0.3557 - 0.48*cos(2*3.14*pow(index, a)/pow(dim, a))+0.144*cos(4*3.14*pow(index, a)/pow(dim, a))-0.01*cos(6*3.14*pow(index, a)/pow(dim, a));//Nuttal window\r\n\tsample_out = scaling * sample * Amp;\r\n\t\r\n\t//panning\r\n\tout1 = (1 - pan) * sample_out;\r\n\tout2 = pan * sample_out;\r\n}\r\nelse {\r\n\tout1 = 0.;\r\n}\r\nout3 = onOff;\r\n",
+									"code" : "\r\nParam rate(0);\r\nParam onOff(0);\r\nBuffer my_buff(\"buff0\");\r\nParam slope(0.16);\r\nParam a_input(1.); //coeficient for asymetrical hanning window\r\n\r\n//get buffer Parameters\r\ndim = dim(my_buff);\t\r\nTe = 1/samplerate;\r\nfreq = 1/(Te*dim);\r\n\r\n// get parameter for next grain\r\nAmp = in1;\r\na = slide(a_input, 1500,1500);\r\nsample, index = peek(my_buff, 0);\r\nrate_ = slide(rate, 1500,1500);\r\npan = slide(in2, 1500, 1500);\r\n\r\n// emit next grain\r\nif ((index != dim)&&onOff){\r\n\tindex = phasor(freq * rate_, 0)*dim;\r\n\r\n\tsample, index2 = peek(my_buff, index);\r\n\r\n\t//scaling = scale(index, 0., dim, 1., 0., slope);\r\n\t// window\r\n\r\n\t//scaling = pow(sin(3.14 * pow(index, a) / pow(dim, a)),2); //skewed hanning window\r\n\tscaling = 0.3557 - 0.48*cos(2*3.14*pow(index, a)/pow(dim, a))+0.144*cos(4*3.14*pow(index, a)/pow(dim, a))-0.01*cos(6*3.14*pow(index, a)/pow(dim, a));//Nuttal window\r\n\tsample_out = scaling * sample * Amp;\r\n\t\r\n\t\r\n\t//panning\r\n\tout1 = (1 - pan) * sample_out;\r\n\tout2 = pan * sample_out;\r\n}\r\nelse {\r\n\tout1 = 0.;\r\n}\r\nout3 = onOff;\r\n",
 									"fontface" : 0,
 									"fontname" : "Lucida Console",
 									"fontsize" : 12.0,
@@ -352,7 +352,6 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontface" : [ 1 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -362,6 +361,7 @@
 										"proportion" : 0.39
 									}
 ,
+									"fontface" : [ 1 ],
 									"fontsize" : [ 11.0 ],
 									"fontname" : [ "Arial" ]
 								}
@@ -390,7 +390,6 @@
 								"name" : "Luca",
 								"default" : 								{
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -403,9 +402,10 @@
 ,
 									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ]
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -721,7 +721,6 @@
 								"name" : "WTF",
 								"default" : 								{
 									"color" : [ 0.113725, 0.580392, 0.737255, 1.0 ],
-									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -732,9 +731,10 @@
 										"autogradient" : 0
 									}
 ,
-									"fontsize" : [ 18.0 ],
 									"bgcolor" : [ 0.163647, 0.174699, 0.17409, 1.0 ],
+									"patchlinecolor" : [ 0.231373, 0.121569, 0.305882, 0.9 ],
 									"accentcolor" : [ 0.50764, 0.065317, 0.112129, 1.0 ],
+									"fontsize" : [ 18.0 ],
 									"elementcolor" : [ 0.461105, 0.492646, 0.591878, 1.0 ],
 									"fontname" : [ "HydrogenType" ]
 								}
@@ -746,8 +746,6 @@
 								"name" : "classic",
 								"default" : 								{
 									"color" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color1" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
@@ -757,10 +755,12 @@
 										"proportion" : 0.39
 									}
 ,
-									"fontsize" : [ 9.0 ],
 									"bgcolor" : [ 0.83978, 0.839941, 0.839753, 1.0 ],
+									"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"fontname" : [ "Geneva" ]
+									"fontsize" : [ 9.0 ],
+									"fontname" : [ "Geneva" ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -816,8 +816,8 @@
 								"default" : 								{
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
-									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
+									"elementcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+									"selectioncolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -961,8 +961,6 @@
 , 							{
 								"name" : "dark-night-patch",
 								"default" : 								{
-									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
-									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -972,7 +970,9 @@
 										"proportion" : 0.39
 									}
 ,
-									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
+									"patchlinecolor" : [ 0.439216, 0.74902, 0.254902, 0.898039 ],
+									"accentcolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -986,7 +986,6 @@
 , 							{
 								"name" : "jpatcher002",
 								"default" : 								{
-									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"clearcolor" : [ 0.32549, 0.345098, 0.372549, 0.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -997,6 +996,7 @@
 										"proportion" : 0.39
 									}
 ,
+									"patchlinecolor" : [ 0.65098, 0.65098, 0.65098, 0.0 ],
 									"fontsize" : [ 9.5 ],
 									"fontname" : [ "Ableton Sans Book" ]
 								}
@@ -1007,9 +1007,7 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -1022,9 +1020,11 @@
 									}
 ,
 									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1097,8 +1097,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1107,8 +1107,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1126,8 +1126,8 @@
 , 							{
 								"name" : "purple",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ]
+									"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
+									"textcolor_inverse" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1215,11 +1215,11 @@
 , 							{
 								"name" : "whitey",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 									"patchlinecolor" : [ 0.199068, 0.062496, 0.060031, 0.9 ],
 									"fontsize" : [ 36.0 ],
 									"selectioncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-									"fontname" : [ "Dirty Ego" ]
+									"fontname" : [ "Dirty Ego" ],
+									"textcolor_inverse" : [ 0.65098, 0.666667, 0.662745, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
